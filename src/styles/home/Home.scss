@@ -2,4 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  h2 {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    font-size: 0;
+  }
 }

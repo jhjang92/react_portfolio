@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Welaaa Clone Page",
+    "content": "React를 사용한 첫 Clone 사이트 입니다.",
+    "description": "개발언어 : React, Javascript, styled-components /n Hooks를 사용한 구조 및 기능구현 (UseContext, useReducer)",
+    "link": "/projects",
+    "thumbnail": "assets/images/thumbnail/welaaaThumbnail.JPG",
+    "alt": "윌라 (Welaaa)",
+    "date": "14 days"
+  },
+  {
+    "id": 2,
+    "title": "Welaaa Clone Page22",
+    "content": "React를 사용한 첫 Clone 사이트 입니다.",
+    "description": "개발언어 : React, Javascript, styled-components /n Hooks를 사용한 구조 및 기능구현 (UseContext, useReducer)",
+    "link": "/projects",
+    "thumbnail": "assets/images/thumbnail/welaaaThumbnail.JPG",
+    "alt": "윌라 (Welaaa)",
+    "date": "14 days"
+  },
+  {
+    "id": 3,
+    "title": "Welaaa Clone Page33",
+    "content": "React를 사용한 첫 Clone 사이트 입니다.",
+    "description": "개발언어 : React, Javascript, styled-components /n Hooks를 사용한 구조 및 기능구현 (UseContext, useReducer)",
+    "link": "/projects",
+    "thumbnail": "assets/images/thumbnail/welaaaThumbnail.JPG",
+    "alt": "윌라 (Welaaa)",
+    "date": "14 days"
+  }
+]

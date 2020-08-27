@@ -16,7 +16,7 @@ function Header() {
             <Link to="/about">ABOUT</Link>
           </li>
           <li>
-            <Link to="/project">PROJECT</Link>
+            <Link to="/projects/list">PROJECT</Link>
           </li>
         </ul>
       </nav>

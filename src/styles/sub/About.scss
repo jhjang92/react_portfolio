@@ -1,0 +1,36 @@
+.About {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem 2.5rem;
+  text-align: left;
+  h3 {
+    font-size: 2rem;
+    margin: 0 0 100px 0;
+    text-align: center;
+  }
+  dl {
+    margin-top: 50px;
+    dt {
+      font-weight: 400;
+      font-size: 1rem;
+      color: #111;
+      margin: 0;
+      padding: 0 0 4px 0;
+    }
+    dd {
+      margin: 0;
+      p {
+        font-weight: 300;
+        font-size: 1rem;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 8px 0 0 15px;
+      }
+    }
+  }
+  .icon {
+    text-align: left;
+    font-size: 3rem;
+  }
+}
