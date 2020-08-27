@@ -1,0 +1,74 @@
+$boxTopPadding: 1rem 1rem 0;
+$boxSidePadding: 0 1rem;
+$boxBottomPadding: 0 1rem 1rem;
+
+.HomeContent {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px 0px;
+  text-align: left;
+  transition: 0.4s;
+  &:hover {
+    transform: translateY(-15px);
+  }
+  h2 {
+    order: 2;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 0 0.25rem;
+
+    padding: $boxTopPadding;
+    a {
+    }
+  }
+  .thumbnail {
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 52.19206680584551%;
+    order: 1;
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: block;
+      object-fit: cover;
+    }
+  }
+  .content {
+    order: 3;
+    padding: $boxSidePadding;
+    margin: 0;
+    a {
+      word-break: break-word;
+      overflow-wrap: break-word;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      height: 3.9375rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      color: rgb(73, 80, 87);
+      margin: 0px 0px 1.5rem;
+      overflow: hidden;
+    }
+  }
+  .date {
+    order: 4;
+    padding: $boxBottomPadding;
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: rgb(134, 142, 150);
+  }
+}
