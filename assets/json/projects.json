@@ -7,7 +7,7 @@
     "link": "/projects",
     "website": "https://jhjang92.github.io/react_welaaa/",
     "github": "https://github.com/jhjang92/react_welaaa",
-    "thumbnail": "../assets/images/thumbnail/welaaaThumbnail.JPG",
+    "thumbnail": "assets/images/thumbnail/welaaaThumbnail.JPG",
     "src": [
       {
         "number": 1,
@@ -36,7 +36,7 @@
     "link": "/projects",
     "website": "https://jhjang92.github.io/ReactTodoList/",
     "github": "https://github.com/jhjang92/ReactTodoList/",
-    "thumbnail": "../assets/images/thumbnail/todolistThumbnail.JPG",
+    "thumbnail": "assets/images/thumbnail/todolistThumbnail.JPG",
     "src": [
       {
         "number": 1,
@@ -65,7 +65,7 @@
     "link": "/projects",
     "website": "http://hyogi.dothome.co.kr/",
     "github": "https://github.com/jhjang92/mySelftProject",
-    "thumbnail": "../assets/images/thumbnail/myselfThumbnail.JPG",
+    "thumbnail": "assets/images/thumbnail/myselfThumbnail.JPG",
     "src": [
       {
         "number": 1,
@@ -94,7 +94,7 @@
     "link": "/projects",
     "website": "https://jhjang92.github.io/GOG/",
     "github": "https://github.com/jhjang92/GOG/",
-    "thumbnail": "../assets/images/thumbnail/gogThumbnail.JPG",
+    "thumbnail": "assets/images/thumbnail/gogThumbnail.JPG",
     "src": [
       {
         "number": 1,
@@ -123,7 +123,7 @@
     "link": "/projects",
     "website": "https://jhjang92.github.io/kakaoPageWeb_first/",
     "github": "https://github.com/jhjang92/kakaoPageWeb_first/",
-    "thumbnail": "../assets/images/thumbnail/kakaoPageWebThumbnail.JPG",
+    "thumbnail": "assets/images/thumbnail/kakaoPageWebThumbnail.JPG",
     "src": [
       {
         "number": 1,
