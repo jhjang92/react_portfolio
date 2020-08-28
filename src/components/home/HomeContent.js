@@ -3,8 +3,6 @@ import "../../styles/home/HomeContent.scss";
 import { Link } from "react-router-dom";
 
 function HomeContent({ data }) {
-  console.log("HomeContent");
-
   return (
     <article className="HomeContent">
       <Link to={`${data.link}/${data.id}`}>

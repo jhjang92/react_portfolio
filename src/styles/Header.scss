@@ -48,6 +48,9 @@
           line-height: 47px;
           display: block;
           font-family: KoPubDotumPBA, sans-serif;
+          &:hover {
+            color: rgba(0, 0, 0, 1);
+          }
         }
       }
     }

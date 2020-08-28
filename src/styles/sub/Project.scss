@@ -1,0 +1,121 @@
+.Project {
+  max-width: 600px;
+  box-sizing: border-box;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  h2 {
+    text-align: center;
+  }
+  .pageLink {
+    text-align: center;
+    margin-bottom: 1rem;
+    a {
+      border: 1px solid #959595;
+      padding: 0.1rem 0.3rem;
+      margin-right: 20px;
+      border-radius: 3px;
+      box-shadow: 0px 3px 2px #959595;
+      &:hover {
+        box-shadow: 0px 3px 2px;
+      }
+      &:active {
+        border: 1px solid black;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+  .slideBox {
+    width: 100%;
+    .slider {
+      width: 300px;
+      position: relative;
+      margin: 0 auto;
+      overflow: hidden;
+      ul {
+        display: flex;
+        transition: 0.5s;
+        li {
+          max-width: 600px;
+          min-width: 100%;
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .arrowBtn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      font-size: 2.5rem;
+      color: #959595;
+      cursor: pointer;
+      &:last-of-type {
+        left: initial;
+        right: 0;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  .contents {
+    p {
+      margin: 0;
+      white-space: pre-wrap;
+      font-size: 0.8rem;
+      line-height: 21px;
+      padding-top: 21px;
+      color: #959595;
+    }
+  }
+  .etc {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    letter-spacing: 2px;
+    button {
+      font-size: 1rem;
+      text-align: left;
+      cursor: pointer;
+      &:hover {
+        &::after {
+          width: 100%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      &::after {
+        content: "";
+        display: block;
+        background: black;
+        width: 0%;
+        height: 1px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        transition: 0.3s;
+      }
+      svg {
+        margin-right: 7px;
+      }
+    }
+    span {
+      font-size: 0.8rem;
+      line-height: 21px;
+      padding-top: 10px;
+      color: #959595;
+    }
+  }
+}

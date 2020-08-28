@@ -1,4 +1,4 @@
-import React, { createContext, useReducer, useContext } from "react";
+import React, { createContext, useReducer, useContext, useRef } from "react";
 import * as api from "../components/common/api";
 import createAsyncDispatcher, {
   initialAsyncState,
@@ -29,13 +29,18 @@ function projectsReducer(state, action) {
 
 const ProjectsStateContext = createContext(null);
 const ProjectsDispatchContext = createContext(null);
+const ProjectTargetIdContext = createContext(null);
 
 export function ProjectsProvider({ children }) {
   const [state, dispatch] = useReducer(projectsReducer, initialState);
+  const targetId = useRef("");
+
   return (
     <ProjectsStateContext.Provider value={state}>
       <ProjectsDispatchContext.Provider value={dispatch}>
-        {children}
+        <ProjectTargetIdContext.Provider value={targetId}>
+          {children}
+        </ProjectTargetIdContext.Provider>
       </ProjectsDispatchContext.Provider>
     </ProjectsStateContext.Provider>
   );
@@ -55,7 +60,13 @@ export function useProjectsDispatch() {
   }
   return dispatch;
 }
-
+export function useProjectTargetId() {
+  const targetId = useContext(ProjectTargetIdContext);
+  if (!targetId) {
+    throw new Error("Cannot find ProjectTargetIdProvider");
+  }
+  return targetId;
+}
 export const getProjects = createAsyncDispatcher(
   "GET_PROJECTS",
   api.getProjects

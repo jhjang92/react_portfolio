@@ -23,8 +23,12 @@ function Home() {
 
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생..</div>;
-  if (!projects) return <button onClick={fetchData}>불러오기</button>;
-  console.log("HOME");
+  if (!projects)
+    return (
+      <button type="button" onClick={fetchData}>
+        불러오기
+      </button>
+    );
   return (
     <section className="Home">
       <h2>Portfolio - 포트폴리오</h2>

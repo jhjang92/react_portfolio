@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function getProjects() {
-  const response = await axios.get("assets/json/projects.json");
+  const response = await axios.get("../assets/json/projects.json");
   return response.data;
 }
 export async function getProject(id) {

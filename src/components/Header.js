@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.scss";
 function Header() {
-  console.log("Header 컴포넌트");
   return (
     <header className="Header">
       <h1>

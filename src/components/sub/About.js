@@ -5,8 +5,8 @@ import { AiFillGithub } from "react-icons/ai";
 function About() {
   return (
     <>
-      <article className="About">
-        <h3>About</h3>
+      <section className="About">
+        <h2>About</h2>
 
         <dl>
           <dt>장재혁 (jaehyuk jang)</dt>
@@ -37,7 +37,7 @@ function About() {
         <a href="https://github.com/jhjang92" className="icon">
           <AiFillGithub />
         </a>
-      </article>
+      </section>
     </>
   );
 }

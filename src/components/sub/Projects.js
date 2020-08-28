@@ -5,7 +5,6 @@ import ProjectList from "./ProjectList";
 import Project from "./Project";
 
 function Projects() {
-  console.log("Projects");
   return (
     <Switch>
       <Route path="/projects/list" component={ProjectList} />

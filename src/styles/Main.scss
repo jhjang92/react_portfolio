@@ -3,4 +3,8 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 10rem;
+
+  @media (max-width: 480px) {
+    padding-top: 7rem;
+  }
 }
