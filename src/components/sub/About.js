@@ -34,9 +34,9 @@ function About() {
             </p>
           </dd>
         </dl>
-        <div className="icon">
+        <a href="https://github.com/jhjang92" className="icon">
           <AiFillGithub />
-        </div>
+        </a>
       </article>
     </>
   );
