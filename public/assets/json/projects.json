@@ -59,64 +59,6 @@
   },
   {
     "id": 3,
-    "title": "mySelftProject -(onlyPC, old)",
-    "content": "-첫 포트폴리오 소개사이트 입니다. \n php와 mysql을 사용한 댓글달기 에서 SPA 스럽게 구현하였습니다.",
-    "description": "-개발언어 \n HTML5, Javascript, css3, php, mysql \n 문의사항보내기, 댓글달기의 주요기능을 vanillaJS로 제작하였습니다. ",
-    "link": "/projects",
-    "website": "http://hyogi.dothome.co.kr/",
-    "github": "https://github.com/jhjang92/mySelftProject",
-    "thumbnail": "../assets/images/thumbnail/myselfThumbnail.JPG",
-    "src": [
-      {
-        "number": 1,
-        "img": "../assets/images/srcImg/myself01.JPG",
-        "srcAlt": "mySelftProject 포트폴리오소개 페이지"
-      },
-      {
-        "number": 2,
-        "img": "../assets/images/srcImg/myself02.JPG",
-        "srcAlt": "mySelftProject About"
-      },
-      {
-        "number": 3,
-        "img": "../assets/images/srcImg/myself03.JPG",
-        "srcAlt": "mySelftProject 댓글달기페이지"
-      }
-    ],
-    "alt": "mySelftProject",
-    "date": "20 days"
-  },
-  {
-    "id": 4,
-    "title": "GOG - 자체제작 OnePageScroll",
-    "content": "-가디언즈 오브 갤럭시 사이트를 자체제작 하였습니다. \n 하나의 페이지에서 스크롤을 사용하여 볼 수 있습니다.",
-    "description": "-개발언어 \n HTML5, Javascript, css3 \n vanillaJS 로 모든 기능을 직접 구현하였습니다.",
-    "link": "/projects",
-    "website": "https://jhjang92.github.io/GOG/",
-    "github": "https://github.com/jhjang92/GOG/",
-    "thumbnail": "../assets/images/thumbnail/gogThumbnail.JPG",
-    "src": [
-      {
-        "number": 1,
-        "img": "../assets/images/srcImg/gog01.JPG",
-        "srcAlt": "가디언즈 오브 갤럭시 CastPage"
-      },
-      {
-        "number": 2,
-        "img": "../assets/images/srcImg/gog02.JPG",
-        "srcAlt": "가디언즈 오브 갤럭시 GalleryPage"
-      },
-      {
-        "number": 3,
-        "img": "../assets/images/srcImg/gog03.JPG",
-        "srcAlt": "가디언즈 오브 갤럭시 SeriesPage"
-      }
-    ],
-    "alt": "가디언즈 오브 갤럭시",
-    "date": "20 days"
-  },
-  {
-    "id": 5,
     "title": "kakaoPageWeb - (onlyPc, 미완성)",
     "content": "-kakaoPage Web을 clone 하였습니다. \n React의 필요성을 절실히 느껴 미완성으로 마무리하였습니다. \n 여러개의 슬라이드를 하나의 함수로 사용하는 자체 플러그인?제작을 시도했습니다.",
     "description": "-개발언어 \n HTML5, Javascript, css3 \n vanillaJS 로 모든 기능을 직접 구현하였습니다. 나아가 여러개의 슬라이드를 하나로 묶는 시도를 하였습니다.",
